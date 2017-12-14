@@ -57,11 +57,8 @@ jQuery(document).ready(function($){
                     dataType: "json",
                     data: { start : startDate, resort : resortName },
                     success: function(data) {
-                        $("#output").html("");
-                        $("#output").append("Ticket available on " + date + " at " + resort + "<br>");
                         for (var i=0; i<data.length; i++) {
-                            console.log(data[i]);
-                            $("#output").append("$" + data[i].price + " "); 
+                            priceUpdate(data);
                         }
 
                     }
