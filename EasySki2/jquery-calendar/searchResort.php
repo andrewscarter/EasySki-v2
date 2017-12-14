@@ -50,9 +50,13 @@ $result = $conn->query("SELECT * FROM Tickets t WHERE t.date_id = '$date_id' AND
 
 //  parse ticket result and store into temp var, then push to data array
 while($row = mysqli_fetch_assoc($result)) {
+    $resort_id = $row["resort_id"];
+    $resort = $conn->query("SELECT name FROM Resorts R WHERE R.id = '$resort_id'");
+    $resortName = mysqli_fetch_assoc($resort)["name"];
     $price = $row["price"];
+    $ticket_id = $row["id"];
     //  temp var to hold ticket info to be pushed into $data array
-    $line = array("price" => $price);
+    $line = array("rid" => $resortName, "price" => $price, "tid" => $ticket_id);
     //  function that adds a var to an exisiting array $data
     array_push($data, $line);
 }
