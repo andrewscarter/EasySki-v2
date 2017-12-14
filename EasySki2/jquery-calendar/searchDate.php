@@ -37,8 +37,9 @@ while($row = mysqli_fetch_assoc($result)) {
     $resort = $conn->query("SELECT name FROM Resorts R WHERE R.id = '$resort_id'");
     $resortName = mysqli_fetch_assoc($resort)["name"];
     $price = $row["price"];
+    $ticket_id = $row["id"];
     //  temp var to hold ticket info to be pushed into $data array
-    $line = array("rid" => $resortName, "price" => $price);
+    $line = array("rid" => $resortName, "price" => $price, "tid" => $ticket_id);
     //  function that adds a var to an exisiting array $data
     array_push($data, $line);
 }
