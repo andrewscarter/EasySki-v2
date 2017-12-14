@@ -59,7 +59,7 @@ function draw_calendar($month,$year){
             } else {
                 $timestamp = strval($year).'-'.strval($month).'-'.strval($list_day);
             }
-			$calendar.= '<div class="day-number"><button onclick:"javascript:void(0)" id="'.$timestamp.'">'.$list_day.'</button></div>';
+			$calendar.= '<div class="day-number"><button onclick:"javascript:void(0)" id="'.$timestamp.'" class="btn btn-primary-outline">'.$list_day.'</button></div>';
            
             
 		$calendar.= '</td>';
