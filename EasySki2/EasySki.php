@@ -42,7 +42,6 @@
             </div>
         </nav>
         <!-- Display Resorts and Narrow Down -->
-        <div class="row">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-3">
@@ -60,113 +59,6 @@
                    
                     </div>
                 </div>
-            </div>
-            <div class="col-lg-5" id="resort_display">
-            <div class="row">
-            <div class="col-sm-4">
-                <div class="card">
-                    <div class="card-header">
-                       <button class="btn btn-primary-outline" id="favorite">&#x2606;</button>
-                    </div>
-                    <div class="card-body">
-                        <p class="card-title"></p>
-                        <p class="card-text"></p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-4" offset="">
-                <div class="card">
-                    <div class="card-header">
-                        <button class="btn btn-primary-outline" id="favorite">&#x2606;</button>
-                    </div>
-                    <div class="card-body">
-                        <p class="card-title"></p>
-                        <p class="card-text"></p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-4" offset="">
-                <div class="card">
-                    <div class="card-header">
-                        <button class="btn btn-primary-outline" id="favorite">&#x2606;</button>
-                    </div>
-                    <div class="card-body">
-                        <p class="card-title"></p>
-                        <p class="card-text"></p>
-                    </div>
-                </div>
-            </div>
-            </div>
-            <div class="row">
-            <div class="col-sm-4">
-                <div class="card">
-                    <div class="card-header">
-                        <button class="btn btn-primary-outline" id="favorite">&#x2606;</button>
-                    </div>
-                    <div class="card-body">
-                        <p class="card-title"></p>
-                        <p class="card-text"></p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-4" offset="">
-                <div class="card">
-                    <div class="card-header">
-                        <button class="btn btn-primary-outline" id="favorite">&#x2606;</button>
-                    </div>
-                    <div class="card-body">
-                        <p class="card-title"></p>
-                        <p class="card-text"></p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-4" offset="">
-                <div class="card">
-                    <div class="card-header">
-                        <button class="btn btn-primary-outline" id="favorite">&#x2606;</button>
-                    </div>
-                    <div class="card-body">
-                        <p class="card-title"></p>
-                        <p class="card-text"></p>
-                    </div>
-                </div>
-            </div>
-            </div>
-                <div class="row">
-            <div class="col-sm-4">
-                <div class="card">
-                    <div class="card-header">
-                        <button class="btn btn-primary-outline" id="favorite">&#x2606;</button>
-                    </div>
-                    <div class="card-body">
-                        <p class="card-title"></p>
-                        <p class="card-text"></p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-4" offset="">
-                <div class="card">
-                    <div class="card-header">
-                        <button class="btn btn-primary-outline" id="favorite">&#x2606;</button>
-                    </div>
-                    <div class="card-body">
-                        <p class="card-title"></p>
-                        <p class="card-text"></p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-4" offset="">
-                <div class="card">
-                    <div class="card-header">
-                        <button class="btn btn-primary-outline" id="favorite">&#x2606;</button>
-                    </div>
-                    <div class="card-body">
-                        <p class="card-title"></p>
-                        <p class="card-text"></p>
-                    </div>
-                </div>
-            </div>
-            </div>
             </div>
         
         <div class="col lg-5 offset ">
