@@ -1,0 +1,68 @@
+
+.navbar-custom
+{
+    background-color: #1629b6;
+}
+.navbar .navbar-brand 
+{
+  color: #fdff71;
+  font-family:
+}
+.navbar .navbar-text 
+{
+  color: #fdff71;
+}
+.card
+{
+    background-color: #1629b6;
+}
+#signInButton
+{
+    border-color: white;
+    color: white;
+}
+.p
+{
+    height: 5px;
+    width: 5px;
+}
+
+.pull-right .clickable .close icon
+{
+    width: 500px;
+    height: 500px;
+}
+.row
+{
+  margin-top: 0px;
+  margin-bottom: 30px
+}
+.Location
+{
+    font-size:2px;
+}
+.calendar
+{
+    height: 120px;
+    width: 600px;
+}
+#favorite 
+{
+    color: yellow;
+    background: #1629b6;
+}
+
+div.resorts, .mySavedTickets {
+    display: inline-block;
+    width: 100px;
+    height: 120px;
+    margin: 0 .5em .5em 0;
+    text-align: center;
+    font-size: 16px;
+    font-weight: normal;
+    font-family: Arial, sans-serif;
+    position: relative;
+    background-color: #1629b6;
+    vertical-align: middle;
+    color: white;
+}

@@ -1,0 +1,10 @@
+<html>
+  <head>
+    <title>tickets test</title>
+    <script src="jquery-3.2.1.js"></script>
+    <script src="ticketsUI/myTicketsUI.js"></script>
+  </head>
+  <body>
+  <div id='tickets_div'><div>
+  </body>
+</html>
